@@ -104,7 +104,7 @@
     self.titleLabel.shadowOffset = CGSizeMake(0, -1);
     self.titleLabel.backgroundColor = [UIColor clearColor];
     self.titleLabel.font = [UIFont boldSystemFontOfSize:kFontSize];
-    self.tint = [UIColor colorWithRed:0.220 green:0.357 blue:0.608 alpha:1];
+    self.tint = [UIColor colorWithHue:0.667 saturation:0.019 brightness:0.212 alpha:1.];
     
     [self setupLayers];
   }	
